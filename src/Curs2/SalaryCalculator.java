@@ -17,7 +17,7 @@ public class SalaryCalculator {
 	System.out.println(tester2.getName());
 	
 	SalaryCalculator calc = new SalaryCalculator();
-	System.out.println("Salariul lui"+ tester1.getName()+"este"+  calc.calculateSalary(tester1.setRatePerHour(0)));
+	System.out.println("Salariul lui"+ tester1.getName()+"este"+  calc.calculateSalary(tester1.getRatePerHour()));
 
 	}
 	
