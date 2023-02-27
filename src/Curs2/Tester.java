@@ -8,6 +8,7 @@ public class Tester{
 	}
 	String name;
 	int ratePerHour;
+//	int age;
 	
 	//metode
 	public String getName() {
@@ -21,6 +22,19 @@ public class Tester{
 	}
 	public void setRatePerHour(int ratePerHour) {
 		this.ratePerHour = ratePerHour;
+	}
+	
+	
+	// tema curs 2
+	
+	int age;
+	
+	public int getAge() {
+		return age;
+	}
+	public void SetAge(int age) {
+	    this.age = age;
+		
 	}
 	
 	
