@@ -9,12 +9,15 @@ public class SalaryCalculator {
 	Tester tester1 = new Tester();
 	tester1.setName("Oana");
 	tester1.setRatePerHour(30);
+	tester1.SetAge(35);
+	
 	Tester tester2 = new Tester();
 	tester2.setName("Maria");
 	tester2.setRatePerHour(25);
-	tester1.SetAge(35);
+	tester2.SetAge(66);
 	
 	//Tema curs 2
+	
 	Tester tester3 = new Tester();
 	tester3.setName("Zeus");
 	tester3.setRatePerHour(23);
@@ -27,6 +30,9 @@ public class SalaryCalculator {
 	
 	SalaryCalculator calc = new SalaryCalculator();
 	System.out.println("Salariul lui "+ tester1.getName() +" este " +  calc.calculateSalary(tester1.getRatePerHour()));
+	
+	
+	//Tema curs2
 	
 	SalaryCalculator angajat = new SalaryCalculator();
 	System.out.println("El este "+ tester3.getName() + " si are " + tester3.age + " ani!");

@@ -6,9 +6,11 @@ public class Tester{
 		
 		
 	}
+	
+	//variabile
 	String name;
 	int ratePerHour;
-//	int age;
+	//int age;
 	
 	//metode
 	public String getName() {
