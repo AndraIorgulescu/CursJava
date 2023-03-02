@@ -6,6 +6,8 @@ public class Login {
 	
 	public void verificaLogin() {
 		
+		
+		//exemplu pt git
 		Scanner scan = new Scanner(System.in); // obiect care ne ajuta sa citim de la tastatura(consola)
 		
 		String username = "test";
