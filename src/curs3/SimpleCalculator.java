@@ -35,11 +35,12 @@ public class SimpleCalculator {
 		}else if(operation == '-') {
 			result = num1-num2;
 			printResult();
-		}else if(operation == '*') {
-			result = num1*num2;
+		}else if(operation == '*' || operation == 'x') { // || operation == 'x' homework3
+			result = num1*num2;			
 			printResult();
-		}else if(operation == '/') {
+		}else if(operation == '/' || operation == ':') { //|| operation == ':' homework3
 			result = num1/num2;
+
 			printResult();
 		}	
 		
