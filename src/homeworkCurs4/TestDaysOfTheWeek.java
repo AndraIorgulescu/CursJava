@@ -7,7 +7,7 @@ public class TestDaysOfTheWeek {
 		day.askUser();
 		day.nameTheDay();
 		
-		System.out.println("ziua saptamanii este " + day);
+		System.out.println("ziua saptamanii este " );
 
 	}
        

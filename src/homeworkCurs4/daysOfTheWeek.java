@@ -22,6 +22,7 @@ public class daysOfTheWeek {
 			Scanner scan = new Scanner(System.in);
 			System.out.println("Please enter number:");
 			num=scan.nextInt();
+			day = null;
 		}
 		
 		public void nameTheDay() {
@@ -32,26 +33,26 @@ public class daysOfTheWeek {
 				System.out.println("Monday");
 				break;
 			case 2:
-				num = 2;
+				day = "Tuesday";
 				System.out.println("Tuesday");
 				break;
 			case 3:
-				num = 3;
+				day = "Wednesday";
 				System.out.println("Wednesday");
 				break;
 			case 4:
-				num = 4;
+				day = "Thursday";
 				System.out.println("Thursday");
 				break;
 			case 5:
-				num = 5;
+				day = "Friday";
 				System.out.println("Friday");
 				break;
 			case 6:
-				num = 6;
+				day = "Saturday";
 				System.out.println("Saturday");
 			case 7:
-				num = 7;
+				day = "Sunday";
 				System.out.println("Sunday");
 				break;
 			
