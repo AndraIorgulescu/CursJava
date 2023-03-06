@@ -14,42 +14,43 @@ import java.util.Scanner;
 
 public class daysOfTheWeek {
 	
-	String day;
+	String day ;
 	int num; 
 	 
 		
 		public void askUser() {
 			Scanner scan = new Scanner(System.in);
 			System.out.println("Please enter number:");
+			num=scan.nextInt();
 		}
 		
 		public void nameTheDay() {
-			switch(day) {
+			switch(num) {
 			
-			case "Monday":
-				num = 1;
+			case 1:
+				day = "Monday";
 				System.out.println("Monday");
 				break;
-			case "Tuesday":
+			case 2:
 				num = 2;
 				System.out.println("Tuesday");
 				break;
-			case "Wednesday":
+			case 3:
 				num = 3;
 				System.out.println("Wednesday");
 				break;
-			case "Thursday":
+			case 4:
 				num = 4;
 				System.out.println("Thursday");
 				break;
-			case "Friday":
+			case 5:
 				num = 5;
 				System.out.println("Friday");
 				break;
-			case "Saturday":
+			case 6:
 				num = 6;
 				System.out.println("Saturday");
-			case "Sunday":
+			case 7:
 				num = 7;
 				System.out.println("Sunday");
 				break;
