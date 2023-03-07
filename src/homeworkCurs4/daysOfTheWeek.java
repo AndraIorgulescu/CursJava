@@ -22,7 +22,6 @@ public class daysOfTheWeek {
 			Scanner scan = new Scanner(System.in);
 			System.out.println("Please enter number:");
 			num=scan.nextInt();
-			day = null;
 		}
 		
 		public void nameTheDay() {
