@@ -1,10 +1,17 @@
 package curs6;
 
-public class Baie {
+public class Baie extends Room{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public Baie(int lenght, int width) {
+		super(lenght, width);
+	}
+	
+	
+	
+	String culoare = "verde";
+	
+	public String culoareBaie() {
+		return super.culoare;
 	}
 
 }
