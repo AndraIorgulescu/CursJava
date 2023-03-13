@@ -1,3 +1,5 @@
+
+
 package curs6;
 
 import java.util.Scanner;
