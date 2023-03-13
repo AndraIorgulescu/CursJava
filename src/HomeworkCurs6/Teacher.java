@@ -1,13 +1,18 @@
 package HomeworkCurs6;
 
-public class Teacher {
+import java.util.Scanner;
+
+public class Teacher(String course, int experinceYears, string schedule) {
 	
 	public String course;
 	public int experienceYears;
 	public String schedule;
-	 Boolean qualify;
+	Boolean qualify;
 	
-	
+
+	 
+	 Scanner sc = new Scanner (System.in);
+	 
 	public void preda() {
         if (qualify){
             System.out.println(this.qualify + " se califica");
