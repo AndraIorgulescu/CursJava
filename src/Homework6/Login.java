@@ -5,34 +5,42 @@ import java.util.Scanner;
 public class Login {
 
 	public static void main(String[] args) {
-		 String Username;
-		    String Password;
+		
+		int NumarIncercari = 3;
+		String username = "TestUser";
+		String parola = "1234";
+		
+		
+		do {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter Username");
+			
+			String IncercareUser = sc.next();
+			
+			System.out.println("Enter Pass");
+			
+			String IncercareParola = sc.next();
+			
+			if(IncercareUser.equals(username)&&IncercareParola.equals(parola)) {
+				System.out.println("Logged in!");
+				
+				break;
+				
+			}else {
+				System.out.println("Loggin Error");
+			}
+			
+			
+			
+			NumarIncercari --;	
+		}while(NumarIncercari != 0);
+		
+		
+		
+		
+		
+	}
 
-		    Password = "1234";
-		    Username = "Tester";
-
-		    Scanner input1 = new Scanner(System.in);
-		    System.out.println("Enter Username : ");
-		    String username = input1.next();
-
-		    Scanner input2 = new Scanner(System.in);
-		    System.out.println("Enter Pass");
-		    String password = input2.next();
-
-		    if (username.equals(Username) && password.equals(Password)) {
-
-		        System.out.println("Logged in!");
-		    }
-
-		    else if (username.equals(Username)) {
-		        System.out.println("Wrong Password!");
-		    } else if (password.equals(Password)) {
-		        System.out.println("Wrong Username!");
-		    } else {
-		        System.out.println("Really bad Username & Password!");
-		    }
-
-		}
 	}
 
 

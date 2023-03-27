@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Teacher {
 	
 	private String course;
-	private String ExperienceYears;
+	private int ExperienceYears;
 	private String schedule;
 
 	public String getCourse() {
@@ -16,11 +16,11 @@ public class Teacher {
 		this.course = course;
 	}
 
-	public String getExperienceYears() {
+	public int getExperienceYears() {
 		return ExperienceYears;
 	}
 
-	public void setExperienceYears(String experienceYears) {
+	public void setExperienceYears(int experienceYears) {
 		ExperienceYears = experienceYears;
 	}
 
@@ -32,26 +32,13 @@ public class Teacher {
 		this.schedule = schedule;
 	}
 
-	public Teacher(String name, String subject, String course, String ExperienceYears, String schedule){
+	public Teacher(String course, int ExperienceYears, String schedule){
         this.course = course;
         this.ExperienceYears = ExperienceYears;
         this.schedule = schedule;
     }
 
 	public Teacher() {
-		// TODO Auto-generated constructor stub
-	}
+		
 
-	public void qulify() {
-		
-         Scanner scan = new Scanner (System.in);
-		
-		Boolean califica = true ;
-			
-		 if(califica  == true) { 
-			System.out.println("Se califica");
-		}else{
-			System.out.println("Nu se califica");
-	
-	
-}}}
+}}

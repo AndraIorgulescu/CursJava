@@ -6,8 +6,12 @@ public class TestTeacher {
 
 	public static void main(String[] args) {
 		
-		Teacher teacher = new Teacher();
-		teacher.qulify();
+	
+		
+		Qualification verification = new Qualification(4,"JAVA","Afternoon" );
+		verification.verify();
+		
+		
 	
 }
 }

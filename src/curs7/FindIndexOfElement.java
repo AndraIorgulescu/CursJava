@@ -28,7 +28,7 @@ public class FindIndexOfElement {
 		
 		public static void rezolvareCuForEach() {
 			
-			int i-0;
+			int i=0;
 			for(int element:number) {
 				if(element==6) {
 					System.out.println("index pentru elementul 6 este" + i);
